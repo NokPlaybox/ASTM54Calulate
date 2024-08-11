@@ -46,9 +46,9 @@ td {border-bottom: 2px solid green;background-color: #87CEEB; font-size: 18px;}
 	</tr>
 	<tr>
 		<td>
-			<input type="checkbox" style="width: 16px; height: 16px;" id="Check54A" value="0"> 54A 
-			<input type="checkbox" style="width: 16px; height: 16px;" id="Check54B" value="1"> 54B 
-			<input type="checkbox" style="width: 16px; height: 16px;" id="Check54D" value="1"> 54D
+			<input type="checkbox" style="width: 16px; height: 16px;" id="Check54A"> 54A 
+			<input type="checkbox" style="width: 16px; height: 16px;" id="Check54B" checked="true"> 54B 
+			<input type="checkbox" style="width: 16px; height: 16px;" id="Check54D" checked="true"> 54D
 			<br>
 		</td>
 		<td><button onclick="myFunction()" style="font-size: 18px; width:80%;">Calculate</button><br></td>
@@ -211,26 +211,26 @@ function myFunction() {
   document.getElementById("LB54D_Litres").innerHTML = TmpLitres54D;
 
 
-	if (document.getElementById("Check54A").value==1){
-
+	if (document.getElementById("Check54A").checked = true){
+   		document.getElementById("TDShow54A").style.display = '';
 	}
 	else
 	{
-
+		document.getElementById("TDShow54A").style.display = 'none';
 	}
-	if (document.getElementById("Check54B").value==1){
-
-	}
-	else
-	{
-
-	}
-	if (document.getElementById("Check54D").value==1){
-
+	if (document.getElementById("Check54B").checked = true){
+		document.getElementById("TDShow54B").style.display = '';
 	}
 	else
 	{
-
+		document.getElementById("TDShow54B").style.display = 'none';
+	}
+	if (document.getElementById("Check54D").checked = true){
+		document.getElementById("TDShow54D").style.display = '';
+	}
+	else
+	{
+		document.getElementById("TDShow54D").style.display = 'none';
 	}
 
 //  var x = "Metric Tons : " + document.getElementById("Volume").value+"<br>";
