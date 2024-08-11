@@ -16,16 +16,16 @@ td {border-bottom: 2px solid green;background-color: #87CEEB;}
 <table width="98%">
 	<tr>
 		<td width="50%">Volume MT: <br></td>
-		<td><input type="text" id="Volume" style="font-size: 16px;" value="0.000"><br></td>
+		<td><input type="text" id="Volume" style="font-size: 18px;" value="0.000"><br></td>
 	</tr>
 	<tr>
 		<td>Density@15°C in vac. : <br></td>
-		<td><input type="text" id="Density" style="font-size: 16px;" value="0.8395"><br></td>
+		<td><input type="text" id="Density" style="font-size: 18px;" value="0.8395"><br></td>
 	</tr>
 	<tr>
 		<td>Unit of Tempurature : <br></td>
 		<td>
-			<select onchange="selectTemp()" id="TempUnit" style="font-size: 16px;">
+			<select onchange="selectTemp()" id="TempUnit" style="font-size: 18px;">
   			<option value="F">Fahrenheit °F</option>
 			<option selected value="C">Celsius °C</option>
 			</select><br>
@@ -33,15 +33,15 @@ td {border-bottom: 2px solid green;background-color: #87CEEB;}
 	</tr>
 	<tr>
 		<td>Temp °<Label id="LbTemp">C</Label> : <br></td>
-		<td><input type="text" id="ShowTemp" style="font-size: 16px;" value="30.0"><input type="hidden" id="Temp" value="30.0"><br></td>
+		<td><input type="text" id="ShowTemp" style="font-size: 18px;" value="30.0"><input type="hidden" id="Temp" value="30.0"><br></td>
 	</tr>
-	<tr height="10">
-		<td><br></td>
+	<tr>
+		<td style="font-size: 8px;"><br></td>
 		<td><br></td>
 	</tr>
 	<tr>
 		<td><br></td>
-		<td><button onclick="myFunction()" style="font-size: 16px;">Calculate</button><br></td>
+		<td><button onclick="myFunction()" style="font-size: 18px;">Calculate</button><br></td>
 	</tr>
 </table>
 <br>
@@ -58,8 +58,8 @@ td {border-bottom: 2px solid green;background-color: #87CEEB;}
 		<td>Vol@15°C (Litres) : <br></td>
 		<td><b><label id="LBVolLitres"></label></b><br></td>
 	</tr>
-	<tr height="10">
-		<td Colspan="2"><br></td>
+	<tr>
+		<td Colspan="2"  style="font-size: 8px;"><br></td>
 	</tr>
 	<tr id="TDShow">
 		<td Colspan="2">Table 54A<br></td>
@@ -76,8 +76,8 @@ td {border-bottom: 2px solid green;background-color: #87CEEB;}
 		<td>Lites@ <b><Label id="Lb54A_LitresTemp">30</label></b>°C : <br></td>
 		<td><b><label id="LB54A_Litres"></label></b><br></td>
 	</tr>
-	<tr height="10">
-		<td Colspan="2"><br></td>
+	<tr>
+		<td Colspan="2"  style="font-size: 8px;"><br></td>
 	</tr>
 	<tr id="TDShow">
 		<td Colspan="2">Table 54B<br></td>
@@ -94,8 +94,8 @@ td {border-bottom: 2px solid green;background-color: #87CEEB;}
 		<td>Lites@ <b><Label id="Lb54B_LitresTemp">30</label></b>°C : <br></td>
 		<td><b><label id="LB54B_Litres"></label></b><br></td>
 	</tr>
-	<tr height="10">
-		<td Colspan="2"><br></td>
+	<tr>
+		<td Colspan="2"  style="font-size: 8px;"><br></td>
 	</tr>
 	<tr id="TDShow">
 		<td Colspan="2">Table 54D<br></td>
