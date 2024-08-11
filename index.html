@@ -18,17 +18,17 @@ td {border-bottom: 2px solid green;background-color: #87CEEB; font-size: 18px;}
 <br>
 <table id="TBData" width="98%">
 	<tr>
-		<td width="55%">Volume MT: <br></td>
-		<td><input type="text" id="Volume" style="font-size: 18px; width:90%;" value="0.000"><br></td>
+		<td width="53%">Volume MT: <br></td>
+		<td><input type="text" id="Volume" style="font-size: 18px; width:80%;" value="0.000"><br></td>
 	</tr>
 	<tr>
 		<td>Density@15°C in vac. : <br></td>
-		<td><input type="text" id="Density" style="font-size: 18px; width:90%;" value="0.8395"><br></td>
+		<td><input type="text" id="Density" style="font-size: 18px; width:80%;" value="0.8395"><br></td>
 	</tr>
 	<tr>
 		<td>Unit of Temp : <br></td>
 		<td>
-			<select onchange="selectTemp()" id="TempUnit" style="font-size: 18px; width:90%;">
+			<select onchange="selectTemp()" id="TempUnit" style="font-size: 18px; width:80%;">
   			<option value="F">Fahrenheit °F</option>
 			<option selected value="C">Celsius °C</option>
 			</select><br>
@@ -36,7 +36,7 @@ td {border-bottom: 2px solid green;background-color: #87CEEB; font-size: 18px;}
 	</tr>
 	<tr>
 		<td>Temp °<Label id="LbTemp">C</Label> : <br></td>
-		<td><input type="text" id="ShowTemp" style="font-size: 18px; width:90%;" value="30.0"><input type="hidden" id="Temp" style="font-size: 18px; width:3%;" value="30.0"><br></td>
+		<td><input type="text" id="ShowTemp" style="font-size: 18px; width:80%;" value="30.0"><input type="hidden" id="Temp" style="font-size: 18px; width:3%;" value="30.0"><br></td>
 	</tr>
 	<tr>
 		<td style="font-size: 8px;"><br></td>
@@ -44,7 +44,7 @@ td {border-bottom: 2px solid green;background-color: #87CEEB; font-size: 18px;}
 	</tr>
 	<tr>
 		<td><br></td>
-		<td><button onclick="myFunction()" style="font-size: 18px; width:90%;">Calculate</button><br></td>
+		<td><button onclick="myFunction()" style="font-size: 18px; width:80%;">Calculate</button><br></td>
 	</tr>
 </table>
 <br>
@@ -116,7 +116,9 @@ td {border-bottom: 2px solid green;background-color: #87CEEB; font-size: 18px;}
 		<td><b><label id="LB54D_Litres"></label></b><br></td>
 	</tr>
 </table>
-
+<br>
+<br>
+<br>
 <p id="ShowData"></p>
 
 <script>
